@@ -49,48 +49,36 @@ text_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">In 
 
 text_3 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">The data used for this dashboard is <a href="https://flipsidecrypto.xyz/">Flipside Crypto’s</a>. You can click on the <b>View SQL</b> button under each chart to view the underlying SQL query.</p>'
 
-# st.info("Use the menu on the left to select a page (click on > if closed).", icon="👈")
 st.markdown(f'<h1 style="color:#434346;font-size:60px;text-align:center;">{"Uniswap On L2s"}</h1>', unsafe_allow_html=True)
-
-
 st.markdown(text_1, unsafe_allow_html=True)
 st.markdown(text_2, unsafe_allow_html=True)
 st.markdown(text_3, unsafe_allow_html=True)
-
 
 ############################# cache datasets ########################################
 
 url7 = "https://flipsidecrypto.xyz/edit/queries/6349f677-143b-4774-94d2-c0704633f365"
 @st.cache_data
 def load_df7():
-    req = Request(f"https://api.flipsidecrypto.com/api/v2/queries/{url7.split('/')[-1]}/data/latest", headers={"User-Agent": "Mozilla/5.0"})
-    response = urlopen(req).read()
-    df7 = pd.read_json(response.decode('utf-8'))
+    df7 = pd.read_csv('df7.csv')
     return df7
 
 url8 = "https://flipsidecrypto.xyz/edit/queries/67409c8d-a5dd-4b4d-b611-710ef891281b"
 @st.cache_data
 def load_df8():
-    req = Request(f"https://api.flipsidecrypto.com/api/v2/queries/{url8.split('/')[-1]}/data/latest", headers={"User-Agent": "Mozilla/5.0"})
-    response = urlopen(req).read()
-    df8 = pd.read_json(response.decode('utf-8'))
+    df8 = pd.read_csv('df8.csv')
     return df8
 
 url22 = "https://flipsidecrypto.xyz/edit/queries/95beab6d-99e4-4133-ae87-f3f000c46258"
 @st.cache_data
 def load_df22():
-    req = Request(f"https://api.flipsidecrypto.com/api/v2/queries/{url22.split('/')[-1]}/data/latest", headers={"User-Agent": "Mozilla/5.0"})
-    response = urlopen(req).read()
-    df22 = pd.read_json(response.decode('utf-8'))
+    df22 = pd.read_csv('df22.csv')
     return df22
 
 ########################################################################################
 url27 = "https://flipsidecrypto.xyz/edit/queries/44323a13-da6a-4c55-b15e-c6821afd8ca1"
 @st.cache_data
 def load_df27():
-    req = Request(f"https://api.flipsidecrypto.com/api/v2/queries/{url27.split('/')[-1]}/data/latest", headers={"User-Agent": "Mozilla/5.0"})
-    response = urlopen(req).read()
-    df27 = pd.read_json(response.decode('utf-8'))
+    df27 = pd.read_csv('df27.csv')
     return df27
 
 df27 = load_df27()
@@ -134,7 +122,6 @@ df8 = load_df8()
 df22 = load_df22()
 
 ################################   charts   ##############################################
-
 
 ###############################___________________DF7_____________________#############################
 
