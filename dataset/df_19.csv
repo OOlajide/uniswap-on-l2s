@@ -1,0 +1,32 @@
+CHAIN,CATEGORY,USER_COUNT
+Arbitrum,$100k - $1m,13020
+Arbitrum,$10k - $100k,61505
+Arbitrum,$1k - $10k,242774
+Arbitrum,less than $1k,1293378
+Arbitrum,more than $1m,1211850
+Avalanche,$100k - $1m,326
+Avalanche,$10k - $100k,2371
+Avalanche,$1k - $10k,14257
+Avalanche,less than $1k,134272
+Avalanche,more than $1m,1772
+BSC,$100k - $1m,569
+BSC,$10k - $100k,2890
+BSC,$1k - $10k,16854
+BSC,less than $1k,444612
+BSC,more than $1m,991768
+Base,$100k - $1m,476
+Base,$10k - $100k,5597
+Base,$1k - $10k,32950
+Base,less than $1k,308136
+Base,more than $1m,20090
+Optimism,$100k - $1m,3598
+Optimism,$10k - $100k,19455
+Optimism,$1k - $10k,102783
+Optimism,less than $1k,888777
+Optimism,more than $1m,674774
+Polygon,$100k - $1m,14413
+Polygon,$10k - $100k,59111
+Polygon,$1k - $10k,243910
+Polygon,less than $1k,1938106
+Polygon,more than $1m,612209
+﻿

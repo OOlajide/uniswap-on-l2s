@@ -1,0 +1,14 @@
+CHAIN,TRANSACTION_CATEGORY,NUM_WALLETS
+Arbitrum,Transacted On Different Days,1474103
+Avalanche,Transacted On Different Days,37265
+Base,Transacted On Different Days,134704
+BSC,Transacted On Different Days,439964
+Optimism,Transacted On Different Days,807860
+Polygon,Transacted On Different Days,1278322
+Arbitrum,Transacted Only 1 Day,1348424
+Avalanche,Transacted Only 1 Day,115733
+Base,Transacted Only 1 Day,232545
+BSC,Transacted Only 1 Day,1016729
+Optimism,Transacted Only 1 Day,881527
+Polygon,Transacted Only 1 Day,1589427
+﻿

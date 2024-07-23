@@ -1,0 +1,32 @@
+CHAIN,CATEGORY,USER_COUNT
+Arbitrum,10 - 100 txns,437101
+Arbitrum,100 - 1000 txns,15043
+Arbitrum,1000 - 10000 txns,967
+Arbitrum,< 10 txns,2369030
+Arbitrum,> 10000 txns,386
+Avalanche,10 - 100 txns,2546
+Avalanche,100 - 1000 txns,317
+Avalanche,1000 - 10000 txns,81
+Avalanche,< 10 txns,150036
+Avalanche,> 10000 txns,18
+BSC,10 - 100 txns,43566
+BSC,100 - 1000 txns,1439
+BSC,1000 - 10000 txns,306
+BSC,< 10 txns,1411349
+BSC,> 10000 txns,33
+Base,10 - 100 txns,15220
+Base,100 - 1000 txns,382
+Base,1000 - 10000 txns,85
+Base,< 10 txns,351556
+Base,> 10000 txns,6
+Optimism,10 - 100 txns,196615
+Optimism,100 - 1000 txns,5603
+Optimism,1000 - 10000 txns,807
+Optimism,< 10 txns,1486001
+Optimism,> 10000 txns,361
+Polygon,10 - 100 txns,289576
+Polygon,100 - 1000 txns,20427
+Polygon,1000 - 10000 txns,2435
+Polygon,< 10 txns,2554839
+Polygon,> 10000 txns,472
+﻿
