@@ -193,7 +193,6 @@ df26_fig1.update_layout(hovermode="x unified")
 
 url22 = "https://flipsidecrypto.xyz/edit/queries/95beab6d-99e4-4133-ae87-f3f000c46258"
 @st.cache_data
-@st.cache_data
 def load_df22():
     df22 = pd.read_csv('dataset/df_22.csv')
     return df22
